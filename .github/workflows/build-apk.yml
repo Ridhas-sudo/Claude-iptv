@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Unzip source
         run: |
-          unzip -q "iptv-player (44).zip" -d .
+          unzip -q "iptv-player (534).zip" -d .
           ls -la
       - name: Set up JDK 17
         uses: actions/setup-java@v4
